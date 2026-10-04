@@ -17,9 +17,11 @@
 - Nachts ohne Rückfrage durcharbeiten, wenn Marcel das vorher sagt.
 
 ## Git und Deploy
-- Lokal iterieren. Push und Deploy erst, wenn Marcel „deploy“, „live machen“ o. Ä. sagt.
-- Kleine, eindeutig richtige technische Fixes dürfen direkt live (bisher so bei phillipp-rau.de).
-  Neue Seiten, Design- und Hero-Änderungen erst lokal zeigen.
+- Lokal iterieren. Fertige, geprüfte Stände dürfen ohne Rückfrage nach GitHub gepusht werden.
+- **Prod-Deploy nur nach meiner Freigabe auf dem Agenten-Board** (msone ai dashboard, `/board`): Karte auf
+  „Freigabe ausstehend“ setzen und warten, bis ich sie auf „Freigabe erteilt“ ziehe – erst dann deployen und auf „Live“.
+  Gilt für alles, auch kleine technische Fixes und auch, wenn ich im Chat „deploy“ sage (seit 04.10.2026).
+- Neue Seiten, Design- und Hero-Änderungen vorher lokal zeigen.
 - Vor jedem Deploy prüfen: `npm run build` (enthält `npm run check`), `node -c` für Plain-JS wie `data.js`,
   JSON-LD-Blöcke validieren. Einmal ging eine leere Seite live, weil ein `"` in einem deutschen „…“-Zitat den String beendete.
 - Referenzbilder, die Marcel ins Projekt legt (`PHOTO-*`, Screenshots, Plakate), nicht committen – sie gehören nach `docs/` (gitignored).
