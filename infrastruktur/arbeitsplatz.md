@@ -6,7 +6,7 @@
 - **Laravel Herd** (`~/Herd`): campusy, msone, msone-next, pedisarah, school. Lokale Domains `*.test`.
 - **WebStorm** (`~/WebstormProjects`): afd/* (Kandidatenseiten), krone, school.
 - **Claude-Projekte** in `~/Claude` (Videos, Logo, sevDesk-Skripte usw.).
-- **Claude-Harness** in `~/MsOne/claude` (GitHub `msone-web-solutions/claude`), Wissen in `~/MsOne/wiki`.
+- **Valhalla** (Claude-Harness) in `~/MsOne/valhalla` (GitHub `msone-web-solutions/valhalla`), Wissen in `~/MsOne/wiki`.
 - Blender 5.2.2 LTS unter `/Applications/Blender.app/Contents/MacOS/Blender` (nicht im PATH), ca. 4 s/Frame EEVEE.
 - Audio-Werkzeuge: Python-venv `~/Claude/transmission/.venv` (librosa, demucs, wav2vec2), whisper.cpp in `~/Claude/transmission/whisper.cpp`.
 - Musik-Rohdateien in `~/Music`, fertige Videos nach `~/Movies`.
