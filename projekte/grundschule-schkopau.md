@@ -28,7 +28,7 @@ neu, kindgerecht und barrierefrei aufbauen und dauerhaft pflegen; Inhalte von de
   Slider mit 8 Karten zur Namensgeberin, Termine, AGs, Team, Kontakt. Fußzeile „Made with ♥ by msone“.
 
 ## Technik
-- Projekt `~/Herd/grundschule-schkopau` (statisch, `site/`), **nur lokales Git, nie öffentlich pushen** (`inhalt/` enthält Namen).
+- Projekt `~/Herd/grundschule-schkopau` (statisch, `site/`), Git: privates Repo msone-web-solutions/grundschule-schkopau (main), **nie öffentlich machen** (`inhalt/` enthält Namen).
 - Strenge CSP (keine Inline-Styles/-Scripts), Knete-Rezepte in `assets/css/clay-basis.css`, Handoff `design-clay.md`,
   Musterseite `site/bausteine.html` (wird nicht deployt).
 - Server: msone-Webserver 188.245.122.130, nginx mit Cookie-Gate, Ansible `~/MsOne/ansible/playbooks/grundschule-vorschau.yml`.
